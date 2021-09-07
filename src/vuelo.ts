@@ -1,7 +1,7 @@
 import { DateTime } from "luxon";
 
 export class Avion {
-  constructor(public cantidadAsientos: number, public peso: number) {}
+  constructor(public cantidadMaximaAsientos: number, public peso: number) {}
 }
 
 export class Ciudad {
